@@ -1,0 +1,83 @@
+#myInput,
+#shelvserch,
+#meyou {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 95%;
+    font-size: 16px;
+    padding: 7px 44px 8px 40px;
+    border: 1px solid #ddd;
+
+
+}
+
+.fuldiv {
+    background-image: url(https://www.thenationalnews.com/lifestyle/that-inside-the-futuristic-new-concept-store-in-mall-of-the-emirates-1.1148769);
+}
+
+.ulll {
+    width: 100%;
+
+    background-color: white;
+
+
+
+}
+
+.liii {}
+
+div.table-responsive {
+    max-height: 100%;
+    overflow: auto;
+}
+
+table {
+    height: 450px;
+}
+
+.styled-table {
+    border-collapse: collapse !important;
+    margin: 25px 0 !important;
+    font-size: 0.9em !important;
+    font-family: sans-serif !important;
+    min-width: 400px !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.styled-table thead tr {
+    background-color: #009879 !important;
+    color: #ffffff !important;
+    text-align: left !important;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px !important;
+    height: 10px !important;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd !important;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3 !important;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879 !important;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold !important;
+    color: #009879 !important;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .actioclas {
+        width: 25%;
+    }
+}
