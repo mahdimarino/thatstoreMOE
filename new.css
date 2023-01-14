@@ -32,9 +32,7 @@ div.table-responsive {
     overflow: auto;
 }
 
-table {
-    height: 450px;
-}
+
 
 .styled-table {
     border-collapse: collapse !important;
@@ -80,4 +78,13 @@ table {
     .actioclas {
         width: 25%;
     }
+}
+
+
+.red {
+    background-color: greenyellow !important;
+}
+
+.green {
+    background-color: red !important;
 }

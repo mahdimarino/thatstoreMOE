@@ -74,3 +74,18 @@ function chFunction() {
     }
 }
 
+
+var rows = document.getElementById("tabla").getElementsByTagName("tbody")
+[0].getElementsByTagName("tr");
+
+// loops through each row
+for (i = 0; i < rows.length; i++) {
+    cells = rows[i].getElementsByTagName('td');
+    if (cells[3].innerHTML == 'desplay')
+        rows[i].className = "table-danger";
+
+    if (cells[3].innerHTML == 'bara')
+        rows[i].className = "table-success";
+
+
+}

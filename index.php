@@ -41,7 +41,7 @@ include "./include/functions.php";
         <?php include "./include/sidebar.php"; ?>
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper fuldiv">
+        <div class="content-wrapper fuldiv" style="background-color: white !important;">
             <div class="container p-3">
                 <?php
                 $page = (isset($_GET['page']) && !empty($_GET['page'])) ? $_GET['page'] : false;

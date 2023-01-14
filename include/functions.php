@@ -10,7 +10,17 @@ function addProduct($data)
 }
 
 
-//add buyer order
+//delet reservasion
+
+function deletereservation($cid)
+{
+    global $connect;
+    $sql = "DELETE FROM reservation_manager WHERE reservation_id = $cid";
+    $q = mysqli_query($connect, $sql) or die("error");
+    if ($q)   return 1;
+
+    return 0;
+}
 
 
 

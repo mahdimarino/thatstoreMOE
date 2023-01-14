@@ -45,11 +45,30 @@
                         <p>Add stockroom</p>
                     </a>
                 </li>
+                <li class="nav-item">
+                    <a href="?page=addreservation" class="nav-link">
+                        <i class="nav-icon fa fa-plus"></i>
+                        <p>Add reservation</p>
+                    </a>
+                </li>
 
                 <li class="nav-item">
                     <a href="?page=add_product" class="nav-link">
                         <i class="nav-icon fa fa-plus"></i>
                         <p>Add Product</p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="?page=reservation-cart" class="nav-link">
+                        <i class="nav-icon far fa-circle"></i>
+                        <p>Reserved cart</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="?page=reservations" class="nav-link">
+                        <i class="nav-icon far fa-circle"></i>
+                        <p>Reservations</p>
                     </a>
                 </li>
 
