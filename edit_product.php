@@ -3,16 +3,12 @@
 $cid = isset($_GET['q']) ? $_GET['q'] : NULL;
 $sql = "SELECT * FROM products WHERE id= $cid limit 1";
 $q = mysqli_query($connect, $sql) or die("error");
-
 $num = mysqli_num_rows($q);
-
 if ($num == 1) {
     $data = mysqli_fetch_array($q, MYSQLI_ASSOC);
 }
-
 $categories = allCat();
 ?>
-
 <form method="post" action="edit_product_do.php" enctype="multipart/form-data">
     <div class="form-group">
         <label for="exampleFormControlInput1">itemnumber</label>
@@ -34,14 +30,7 @@ $categories = allCat();
     <div class="form-group">
         <label for="exampleFormControlInput1">shelev</label>
         <input type="text" name="tal" class="form-control" placeholder="shelve">
-
     </div>
-
-
-
-
-
-
     <input type="hidden" name="id" value="<?= $data['id'] ?>">
     <button type="submit" class="btn btn-primary">Update</button>
 </form>

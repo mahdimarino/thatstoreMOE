@@ -5,6 +5,7 @@
             <th scope="col">Reserve by</th>
             <th scope="col">phone no</th>
             <th scope="col">client name</th>
+            <th scope="col">reservation time</th>
 
             <th scope="col">orders</th>
             <th scope="col">Delete</th>
@@ -22,6 +23,7 @@
                            <td>$user_fetch[full_name]</td>
                            <td>$user_fetch[phone_no]</td>
                            <td>$user_fetch[clinte_name]</td>
+                           <td>$user_fetch[date]</td>
                            
                            <td>
                            <a href='index.php?page=client_reservations&s= $user_fetch[reservation_id]' class='btn btn-primary'>View orders</a>

@@ -45,6 +45,7 @@ $data = all();
                             <input type="hidden" name="tal" value="<?= $value['tal']; ?> ">
                             <button type="submit" class="btn btn-dark btn-sm add-to-cart"><span>reserv</span></button>
                             <a href="index.php?page=edit_product&q=<?= $value['id'] ?>" class="btn ml-2 btn-primary btn-sm">Edit</a>
+                            <a href="index.php?page=add_to_display&q=<?= $value['id'] ?>" class="btn ml-2 btn-primary btn-sm">Display</a>
                             <a alt="delet" class="btn btn-danger btn-sm ml-2" href="delete_product.php?d=<?= $value['id'] ?>"> Delete</a>
                         </td>
                     </tr>
