@@ -14,11 +14,13 @@
         $dbhost = 'localhost';
         $dbuser = 'root';
         $dbpass = '';
+        $basename = 'products';
 
-        $conn = mysqli_connect($dbhost, $dbuser, $dbpass);
+
+        $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $basename);
 
         if (!$conn) {
-            die('Could not connect: ' . mysqli_error());
+            die('Could not connect: ');
         }
 
 
@@ -27,13 +29,11 @@
 
         $sql = "UPDATE products " . "SET stockroomname = $stockroomname " .
             "WHERE itemumber = $itemnumber";
-        mysqli_select_db('products');
-        $retval = mysqli_query($sql, $conn);
 
-        if (!$retval) {
-            die('Could not update data: ');
-        }
-        echo "Updated data successfully\n";
+
+
+
+
 
         mysqli_close($conn);
     } else {
