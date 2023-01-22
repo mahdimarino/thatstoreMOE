@@ -6,3 +6,4 @@
 # maf-that-boh-admin
 # maf-new-admin
 # admin_last_version
+# newadd
