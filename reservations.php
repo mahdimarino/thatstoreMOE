@@ -7,7 +7,7 @@
             <th scope="col">client name</th>
             <th scope="col">reservation time</th>
 
-            <th scope="col">orders</th>
+            <th scope="col">items</th>
             <th scope="col">Delete</th>
         </tr>
     </thead>
@@ -26,7 +26,7 @@
                            <td>$user_fetch[date]</td>
                            
                            <td>
-                           <a href='index.php?page=client_reservations&s= $user_fetch[reservation_id]' class='btn btn-primary'>View orders</a>
+                           <a href='index.php?page=client_reservations&s= $user_fetch[reservation_id]' class='btn btn-primary'>View items</a>
                            </td>
                            <td>
                            <a href='delete_reservation.php?d= $user_fetch[reservation_id] ' class='btn btn-danger'>Delete</a>

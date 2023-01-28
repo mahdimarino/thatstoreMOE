@@ -53,13 +53,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 unset($_SESSION['reserved']);
                 echo " <script>
                 
-                window.location.href='index.php?page=reservation-cart';
+                window.location.href='index.php?page=reservations';
                 
                 </script> ";
             } else {
                 echo " <script>
                 alert('sql query prepare error');
-                window.location.href='index.php?page=reservation-cart';
+                window.location.href='index.php?page=reservations';
                 </script> ";
             }
         }

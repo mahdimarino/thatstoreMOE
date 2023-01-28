@@ -11,6 +11,8 @@ $data = all();
                 <th><input onkeyup="filterTable()" placeholder="Item number"></th>
                 <th><input onkeyup="filterTable()" placeholder="barcode"></th>
                 <th><input onkeyup="filterTable()" placeholder="Color"></th>
+                <th><input onkeyup="filterTable()" placeholder="size"></th>
+                <th><input onkeyup="filterTable()" placeholder="brandname"></th>
                 <th><input onkeyup="filterTable()" placeholder="Stockroom"></th>
                 <th><input onkeyup="filterTable()" placeholder="Shelve"></th>
 
@@ -19,6 +21,8 @@ $data = all();
                 <th scope="col">itemnumber</th>
                 <th scope="col">barcode</th>
                 <th scope="col">color</th>
+                <th scope="col">size</th>
+                <th scope="col">brandname</th>
                 <th scope="col">stockroom</th>
                 <th scope="col">shelve</th>
                 <th scope="col">Action</th>
@@ -34,6 +38,8 @@ $data = all();
                         <td><?= $value['itemnumber'] ?></td>
                         <td><?= $value['barcode'] ?></td>
                         <td><?= $value['color'] ?></td>
+                        <td><?= $value['size'] ?></td>
+                        <td><?= $value['brandname'] ?></td>
                         <td><?= $value['stockroomname'] ?></td>
                         <td><?= $value['tal'] ?></td>
                         <td class="btn-group">
@@ -41,6 +47,8 @@ $data = all();
                             <input type="hidden" name="itemnumber" value="<?= $value['itemnumber']; ?> ">
                             <input type="hidden" name="barcode" value="<?= $value['barcode']; ?> ">
                             <input type="hidden" name="color" value="<?= $value['color']; ?> ">
+                            <input type="hidden" name="size" value="<?= $value['size']; ?> ">
+                            <input type="hidden" name="brandname" value="<?= $value['brandname']; ?> ">
                             <input type="hidden" name="stockroomname" value="<?= $value['stockroomname']; ?> ">
                             <input type="hidden" name="tal" value="<?= $value['tal']; ?> ">
                             <button type="submit" class="btn btn-dark btn-sm add-to-cart"><span>reserv</span></button>
