@@ -2,10 +2,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background: url() no-repeat;
+    background: url(https://www.majidalfuttaim.com/-/media/feature/mafcorporate/page-featured-images/industriesmap/that-banner.jpg) no-repeat;
     background-size: cover;
 }
-  
+
+
 .login-box {
     width: 280px;
     position: absolute;
@@ -14,7 +15,7 @@ body {
     transform: translate(-50%, -50%);
     color: #191970;
 }
-  
+
 .login-box h1 {
     float: left;
     font-size: 40px;
@@ -22,7 +23,7 @@ body {
     margin-bottom: 50px;
     padding: 13px;
 }
-  
+
 .textbox {
     width: 100%;
     overflow: hidden;
@@ -31,13 +32,13 @@ body {
     margin: 8px 0;
     border-bottom: 1px solid #191970;
 }
-  
+
 .fa {
     width: px;
     float: left;
     text-align: center;
 }
-  
+
 .textbox input {
     border: none;
     outline: none;
@@ -46,7 +47,7 @@ body {
     float: left;
     margin: 0 10px;
 }
-  
+
 .button {
     width: 100%;
     padding: 8px;
@@ -60,7 +61,7 @@ body {
 }
 
 
-.erordiv{
+.erordiv {
     height: 100px;
     width: 300px;
     background-color: red;

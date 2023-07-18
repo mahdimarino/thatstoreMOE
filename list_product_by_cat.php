@@ -30,7 +30,6 @@ $data = mysqli_fetch_all($q, MYSQLI_ASSOC);
                     <td><?= $value['tal'] ?></td>
                     <td>
                         <a href="index.php?page=edit_product&q=<?= $value['id'] ?>" class="btn btn-primary">Edit</a>
-                        <a alt="delet" style="color: red; margin-left: 2rem;" href="delete_product.php?d=<?= $value['id'] ?>"><i class="fa fa-trash" aria-hidden="true"></i></a>
                     </td>
                 </tr>
             <?php endforeach; ?>

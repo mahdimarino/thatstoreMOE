@@ -81,10 +81,10 @@ var rows = document.getElementById("tabla").getElementsByTagName("tbody")
 // loops through each row
 for (i = 0; i < rows.length; i++) {
     cells = rows[i].getElementsByTagName('td');
-    if (cells[3].innerHTML == 'desplay')
+    if (cells[5].innerHTML == 'display')
         rows[i].className = "table-danger";
 
-    if (cells[3].innerHTML == 'bara')
+    if (cells[5].innerHTML == 'bara')
         rows[i].className = "table-success";
 
 
